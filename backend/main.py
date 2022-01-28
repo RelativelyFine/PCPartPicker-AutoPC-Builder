@@ -8,3 +8,8 @@ class Components:
     def get_component_json(self, component: str):
         component_data = self.api.retrieve(component)
         return component_data
+
+
+cpu = Components()
+
+cpudata = cpu.get_component_json("cpu")
