@@ -21,6 +21,42 @@ body {
     font-size: 100%;
 }
 
+
+.home-text {
+  font-family: Candara;
+  color: white;
+  font-size: 100%;
+}
+
+.home-text .left-h1 {
+  text-align: left;
+  font-size: 500%;
+  line-height : 90px
+}
+
+.home-text .left-h2 {
+  text-align: left;
+  font-size: 200%;
+  color: #C0C0C0;
+}
+
+.button {
+  background-color: #5EA8BF;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  margin:1% 0%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @font-face {
     font-family: "FontAwesome";
     font-weight: normal;
