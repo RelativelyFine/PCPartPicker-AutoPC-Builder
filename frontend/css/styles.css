@@ -122,6 +122,16 @@ body {
     padding:5%;
 }
 
+.disp-more .txt{
+    font-family: Exo;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    background-color: #3F6174;
+}
+
 @font-face {
     font-family: "FontAwesome";
     font-weight: normal;
