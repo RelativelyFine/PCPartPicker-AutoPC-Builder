@@ -115,6 +115,10 @@ body {
     padding:5%;
 }
 
+.disp-ter {
+    font-size: 80%;
+}
+
 .disp-more {
     background-color: rgba(0, 0, 0, 0.5);
     border-width: 2%;
