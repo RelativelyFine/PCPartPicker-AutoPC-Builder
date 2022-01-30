@@ -48,7 +48,7 @@ body {
   text-align: center;
   font-size: 20px;
   border-radius: 15px;
-  margin:1% 0%;
+  margin:2% 0%;
 }
 
 .center {
@@ -57,6 +57,34 @@ body {
   align-items: center;
 }
 
+.home-sum {
+  background: #072B45;
+  color: white;
+}
+
+.title-column {
+  padding-top: 1cm;
+  float: left;
+  width: 33.33%;
+  color: #FFFFFF;
+  font-size: 150%;
+  text-align: center;
+}
+
+.flvtext-column {
+  float: left;
+  width: 33.33%;
+  color: #C0C0C0;
+  font-size: 100%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #628BA1 !important;
