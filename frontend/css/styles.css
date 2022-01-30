@@ -6,6 +6,20 @@ body {
     font-family: Exo;
 }
 
+.build-text {
+    text-align: center;
+    font-family: Exo;
+    color: white;
+    font-size: 100%;
+}
+
+.build-text .nh1 {
+    font-size: 200%;
+}
+
+.build-text .nh2 {
+    font-size: 100%;
+}
 
 @font-face {
     font-family: "FontAwesome";
