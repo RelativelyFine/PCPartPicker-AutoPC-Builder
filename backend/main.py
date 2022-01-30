@@ -30,7 +30,7 @@ class Component:
            if item.price.amount <= Decimal(upper) and item.price.amount >= Decimal(lower):
                 print(item.brand)
                 if (len(comps) < 10):
-                    comps.append(str(item.brand)+', '+str(item.model)+', '+str(item.price))
+                    comps.append(str(item.model)+', '+str(item.price))
                 else:
                     break
         return comps
@@ -68,7 +68,7 @@ f = open("cpu.txt", 'w')
 f.write(str(cpu.items))
 f.close()
 
-ratio = {'motherboard': 0.15, 'cpu': 0.15, 'video-card': 0.50, 'memory': 0.10, 'cpu-cooler': 0.05, 'power-supply': 0.05, 'wireless-network-card': 0.01}
+ratio = {'motherboard': 0.15, 'cpu': 0.15, 'video-card': 0.50, 'memory': 0.10, 'cpu-cooler': 0.05, 'power-supply': 0.05, 'wireless-network-card': 0.01, 'internal-hard-drive': 0.05}
 
 parts_list = {}
 
