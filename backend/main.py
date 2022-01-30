@@ -4,8 +4,12 @@ from pcpartpicker import API
 from decimal import Decimal
 import csv
 
-
 api = API()
+
+class Object:
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__, 
+            sort_keys=True, indent=4)
 
 class Component:
     def __init__(self, part, price, region='ca'):
@@ -42,10 +46,10 @@ class Component:
 cpu = Component('motherboard', 200)
 
 
-#print(cpu.supported_parts)
+print(cpu.supported_parts)
 #get components based on component price ratio 
  
-ratio = {'motherboard': 0.15, 'cpu': 0.15, 'video-card': 0.50, 'memory': 0.10}
+ratio = {'motherboard': 0.15, 'cpu': 0.15, 'video-card': 0.50, 'memory': 0.10, 'cpu-cooler': 0.05, 'power-supply': 0.05}
 
 parts_list = {}
 
@@ -57,6 +61,7 @@ def get_parts(price):
 
 get_parts(2000)
 
-f = open("out.txt", "w")
-f.writelines(parts_list)
-f.close()
+with open('dict.csv', 'w') as csv_file:  
+    writer = csv.writer(csv_file)
+    for key, value in parts_list.items():
+       writer.writerow([key, value])
