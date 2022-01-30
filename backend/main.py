@@ -26,13 +26,11 @@ class Component:
         upper = self.price * 1.25
         lower = self.price * 0.75
         comps = []
-        for i in range (len(self.items[self.part])):
-           if self.items[self.part][i].price.amount <= Decimal(upper) and self.items[self.part][i].price.amount >= Decimal(lower):
-                print(self.items[self.part][i].brand)
-                if (len(comps) < 1):
-                    comps.append(self.items[self.part][i])
-                elif (len(comps) < 6) and (self.items[self.part][i].brand != 'AMD'):
-                    comps.append(self.items[self.part][i])
+        for item in (self.items[self.part]):
+           if item.price.amount <= Decimal(upper) and item.price.amount >= Decimal(lower):
+                print(item.brand)
+                if (len(comps) < 10):
+                    comps.append(str(item.brand)+', '+str(item.model)+', '+str(item.price))
                 else:
                     break
         return comps
