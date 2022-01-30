@@ -1,11 +1,7 @@
 {
     "motherboard": {
         "component": "motherboard",
-        "items": "['ASRock 760GM-HDV, C$259.99', 'ASRock B450 Pro4, C$330.75', 'ASRock B460 Steel Legend, C$280.19', 'ASRock B460M Steel Legend, C$228.55', 'ASRock B550 PG Velocita, C$304.74', 'ASRock B550 Phantom Gaming-ITX/ax, C$272.30', 'ASRock B550M Phantom Gaming 4, C$259.92', 'ASRock B550M-ITX/ac, C$248.95', 'ASRock C236M WS, C$272.77', 'ASRock E3C236D4U, C$331.07']"
-    },
-    "cpu": {
-        "component": "cpu",
-        "items": "['AMD A10-7870K, C$353.36', 'AMD A8-7600, C$238.65', 'AMD FX-4350, C$236.31', 'AMD FX-8320, C$295.22', 'AMD Ryzen 5 1500X, C$251.00', 'AMD Ryzen 5 1600 (12nm), C$299.00', 'AMD Ryzen 5 3600, C$311.95', 'AMD Ryzen 5 3600X, C$339.00', 'AMD Ryzen 5 5600G, C$288.50', 'AMD Ryzen 5 5600X, C$349.50']"
+        "items": "['', '', 'ASRock B550 Phantom Gaming-ITX/ax, C$272.30', 'ASRock B550M Phantom Gaming 4, C$259.92', 'ASRock B550M-ITX/ac, C$248.95', 'ASRock C236M WS, C$272.77', 'ASRock E3C236D4U, C$331.07']"
     },
     "video-card": {
         "component": "video-card",
@@ -14,10 +10,6 @@
     "memory": {
         "component": "memory",
         "items": "['ADATA XPG GAMMIX D10 16 GB, C$217.99', 'Acer Predator Apollo 16 GB, C$248.98', 'Acer Predator Apollo 16 GB, C$232.98', 'Acer Predator Apollo 16 GB, C$231.98', 'Acer Predator Talos 16 GB, C$159.98', 'Corsair Dominator Platinum 32 GB, C$172.98', 'Corsair Dominator Platinum RGB 16 GB, C$159.99', 'Corsair Dominator Platinum RGB 16 GB, C$154.99', 'Corsair Dominator Platinum RGB 16 GB, C$156.99', 'Corsair Dominator Platinum RGB 16 GB, C$164.98']"
-    },
-    "cpu-cooler": {
-        "component": "cpu-cooler",
-        "items": "['ARCTIC Alpine 11 GT Rev 2, C$103.60', 'ARCTIC Freezer 33 CO, C$95.40', 'ARCTIC Freezer 34 eSports DUO, C$79.98', 'ARCTIC Freezer 34 eSports DUO, C$124.64', 'ARCTIC Freezer 34 eSports DUO, C$75.98', 'ARCTIC Freezer 50, C$91.33', 'ARCTIC Freezer 50 TR, C$107.16', 'ARCTIC Freezer i32, C$84.10', 'ARCTIC Liquid Freezer II 120, C$92.99', 'ARCTIC Liquid Freezer II 240, C$119.99']"
     },
     "power-supply": {
         "component": "power-supply",
