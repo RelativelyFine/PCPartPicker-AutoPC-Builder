@@ -31,7 +31,8 @@ body {
 .home-text .left-h1 {
   text-align: left;
   font-size: 500%;
-  line-height : 90px
+  line-height : 90px;
+  color: #FFFFFF;
 }
 
 .home-text .left-h2 {
@@ -56,6 +57,13 @@ body {
   align-items: center;
 }
 
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #628BA1 !important;
+    font-family: Exo !important;
+    color: black !important;
+    margin:1% 0% !important;
+}
 
 @font-face {
     font-family: "FontAwesome";
